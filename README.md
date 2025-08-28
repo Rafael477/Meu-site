@@ -1,4 +1,4 @@
-# 🌐 Meu Primeiro Site
+# 🌐 Meu Site
 Este é o **meu primeiro projeto web**, criado com HTML, CSS e JavaScript puros. Um marco no meu aprendizado como desenvolvedor front - end!
 ---
 ## 💻 Demostração
