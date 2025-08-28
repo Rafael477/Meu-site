@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Super Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <!-- Efeito de partículas no background -->
+    <div id="particles-js"></div>
+
+    <!-- Cabeçalho com Parallax -->
+    <header class="header parallax-header">
+        <div class="parallax-bg"></div>
+        <div class="container header-content">
+            <h1 class="glitch-text">Meu Site Portifólio Rafael Aniceto</h1>
+
+            <p class="meu-primeiro-paragrafo">
+                Este é o meu site portifólio, feito com <span class="highlight">HTML</span>, <span class="highlight">CSS</span> e <span class="highlight">JavaScript</span>.
+            </p>
+            <div class="header-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span>R</span>afael <span>A</span>niceto
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+                <li><a href="#habilidades"><i class="fas fa-code"></i> Habilidades</a></li>
+                <li><a href="#projetos"><i class="fas fa-project-diagram"></i> Projetos</a></li>
+                <li><a href="#depoimentos"><i class="fas fa-comment"></i> Depoimentos</a></li>
+                <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+                <li class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="profile-img">
+                            <img src="img/RafaelCorp.jpg" alt="Rafael Aniceto">
+                            <div class="profile-shadow"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Olá, eu sou <span class="highlight">Rafael</span></h3>
+                        <p class="sobre-mim">Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Estou constantemente aprimorando minhas habilidades em design responsivo e novas tecnologias.</p>
+                        
+                        <div class="stats-container">
+                            <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-title">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <span class="stat-number" data-count="20">0</span>
+                            <span class="stat-title">Projetos Concluídos</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-title">Clientes Satisfeitos</span>
+                        </div>
+                      
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Habilidades -->
+        <section id="habilidades" class="section">
+            <div class="container">
+                <h2 class="section-title">Minhas Habilidades</h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML</h3>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="90%"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS</h3>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="85%"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="75%"></div>
+                        </div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React Native</h3>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="70%"></div>
+                        </div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Projetos -->
+        <section id="projetos" class="section">
+            <div class="container">
+                <h2 class="section-title">Projetos</h2>
+                <p class="projetos">Aqui estão alguns dos meus projetos mais recentes:</p>
+                
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                
+                <div class="projetos-grid">
+                    <div class="projeto-card shine-effect" data-category="web">
+                        <div class="projeto-img">
+                            <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="E-commerce Website">
+                            <div class="projeto-overlay">
+                                <div class="projeto-links">
+                                    <a href="#" class="projeto-link" aria-label="Ver site"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="projeto-link" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <div class="projeto-categoria">Web Development</div>
+                            <h3>E-commerce Website</h3>
+                            <p>Um site de e-commerce completo com carrinho de compras, pagamentos e painel de administração. Inclui sistema de avaliações e recomendações personalizadas.</p>
+                            <div class="projeto-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <a href="#" class="projeto-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-card shine-effect" data-category="mobile">
+                        <div class="projeto-img">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fitness Tracker App">
+                            <div class="projeto-overlay">
+                                <div class="projeto-links">
+                                    <a href="#" class="projeto-link" aria-label="Ver app"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="projeto-link" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <div class="projeto-categoria">Mobile App</div>
+                            <h3>Fitness Tracker</h3>
+                            <p>Aplicativo móvel para rastreamento de atividades físicas, nutrição e progresso de saúde. Inclui integração com dispositivos wearable e análise de dados.</p>
+                            <div class="projeto-tech">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                                <span>GraphQL</span>
+                            </div>
+                            <a href="#" class="projeto-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-card shine-effect" data-category="design">
+                        <div class="projeto-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Dashboard Interface">
+                            <div class="projeto-overlay">
+                                <div class="projeto-links">
+                                    <a href="#" class="projeto-link" aria-label="Ver projeto"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="projeto-link" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <div class="projeto-categoria">UI/UX Design</div>
+                            <h3>Dashboard Interface</h3>
+                            <p>Design de interface de usuário para um dashboard administrativo com visualização de dados complexos e análises em tempo real. Inclui modo escuro e personalização.</p>
+                            <div class="projeto-tech">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Photoshop</span>
+                                <span>Illustrator</span>
+                            </div>
+                            <a href="#" class="projeto-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-card shine-effect" data-category="web">
+                        <div class="projeto-img">
+                            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Blog Platform">
+                            <div class="projeto-overlay">
+                                <div class="projeto-links">
+                                    <a href="#" class="projeto-link" aria-label="Ver site"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="projeto-link" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <div class="projeto-categoria">Web Development</div>
+                            <h3>Blog Platform</h3>
+                            <p>Plataforma de blog moderna com sistema de gerenciamento de conteúdo personalizado, comentários e análise de engajamento de leitores.</p>
+                            <div class="projeto-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                            </div>
+                            <a href="#" class="projeto-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-card shine-effect" data-category="design">
+                        <div class="projeto-img">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Brand Identity">
+                            <div class="projeto-overlay">
+                                <div class="projeto-links">
+                                    <a href="#" class="projeto-link" aria-label="Ver projeto"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="projeto-link" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <div class="projeto-categoria">Brand Design</div>
+                            <h3>Brand Identity</h3>
+                            <p>Desenvolvimento completo de identidade visual para startup de tecnologia, incluindo logo, paleta de cores, tipografia e materiais de marketing.</p>
+                            <div class="projeto-tech">
+                                <span>Illustrator</span>
+                                <span>Photoshop</span>
+                                <span>InDesign</span>
+                                <span>After Effects</span>
+                            </div>
+                            <a href="#" class="projeto-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-card shine-effect" data-category="mobile">
+                        <div class="projeto-img">
+                            <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Food Delivery App">
+                            <div class="projeto-overlay">
+                                <div class="projeto-links">
+                                    <a href="#" class="projeto-link" aria-label="Ver app"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="projeto-link" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <div class="projeto-categoria">Mobile App</div>
+                            <h3>Food Delivery App</h3>
+                            <p>Aplicativo de entrega de comida com rastreamento em tempo real, sistema de avaliação de restaurantes e programa de fidelidade integrado.</p>
+                            <div class="projeto-tech">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <a href="#" class="projeto-btn">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Depoimentos -->
+        <section id="depoimentos" class="section">
+            <div class="container">
+                <h2 class="section-title">O Que Dizem Sobre Mim</h2>
+                <p class="section-subtitle">Feedback de clientes e parceiros que confiaram em meu trabalho</p>
+                
+                <div class="testimonial-slider">
+                    <div class="testimonial-container">
+                        <div class="testimonial-item active">
+                            <div class="testimonial-content">
+                                <div class="testimonial-img">
+                                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Cliente 1">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Rafael é um desenvolvedor web excepcional. Seu trabalho superou todas as minhas expectativas e o resultado final foi incrível! Ele não apenas entregou um site bonito, mas também garantiu que fosse rápido, responsivo e otimizado para SEO."</p>
+                                    <div class="testimonial-info">
+                                        <h4>Maria Silva</h4>
+                                        <span>CEO, TechStart</span>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-img">
+                                    <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cliente 2">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Trabalhar com o Rafael foi uma experiência incrível. Ele entendeu perfeitamente o que eu precisava e entregou antes do prazo. Sua comunicação foi clara durante todo o projeto, e ele foi muito receptivo a feedback e ajustes. Definitivamente trabalharei com ele novamente."</p>
+                                    <div class="testimonial-info">
+                                        <h4>João Oliveira</h4>
+                                        <span>Diretor de Marketing, InnovateCorp</span>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-img">
+                                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=698&q=80" alt="Cliente 3">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"O site que o Rafael desenvolveu para minha boutique transformou completamente nossa presença online. As vendas aumentaram em 70% nos primeiros três meses após o lançamento. Sua atenção aos detalhes e compreensão do nosso público-alvo foram fundamentais para esse sucesso."</p>
+                                    <div class="testimonial-info">
+                                        <h4>Ana Pereira</h4>
+                                        <span>Proprietária, Boutique Elegance</span>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-img">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cliente 4">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>"Rafael não é apenas um desenvolvedor talentoso, mas também um excelente consultor. Ele nos ajudou a repensar toda a estratégia digital da nossa empresa, identificando oportunidades que não tínhamos considerado. O resultado foi um aumento significativo no engajamento dos usuários e nas conversões."</p>
+                                    <div class="testimonial-info">
+                                        <h4>Carlos Mendes</h4>
+                                        <span>CTO, FutureTech Solutions</span>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-controls">
+                        <button class="testimonial-prev" aria-label="Depoimento anterior"><i class="fas fa-chevron-left"></i></button>
+                        <div class="testimonial-dots">
+                            <span class="dot active" aria-label="Depoimento 1"></span>
+                            <span class="dot" aria-label="Depoimento 2"></span>
+                            <span class="dot" aria-label="Depoimento 3"></span>
+                            <span class="dot" aria-label="Depoimento 4"></span>
+                        </div>
+                        <button class="testimonial-next" aria-label="Próximo depoimento"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="section">
+            <div class="container">
+                <h2 class="section-title">Contato</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Vamos Conversar</h3>
+                        <p>Estou disponível para freelance, projetos de longo prazo ou oportunidades de emprego.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Localização</h4>
+                                    <p>Japeri, Rio de Janeiro, Brasil</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>rafaeeldev@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h4>Telefone</h4>
+                                    <p>(21) 99039-6766</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/seu-perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.twitter.com/seu-perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/seu-perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/seu-perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                                <label for="name">Nome</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                                <label for="subject">Assunto</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <h3 class="footer-title">Sobre Mim</h3>
+                        <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis e funcionais.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h3 class="footer-title">Links Rápidos</h3>
+                        <ul>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#depoimentos">Depoimentos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3 class="footer-title">Contato</h3>
+                        <p><i class="fas fa-envelope"></i> contato@exemplo.com</p>
+                        <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
+                        <p><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</p>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h3 class="footer-title">Newsletter</h3>
+                        <p>Inscreva-se para receber atualizações</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Seu email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Meu Primeiro Site. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão de voltar ao topo -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        // Inicializar partículas
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof particlesJS !== 'undefined') {
+                particlesJS('particles-js', {
+                    particles: {
+                        number: { value: 80, density: { enable: true, value_area: 800 } },
+                        color: { value: '#01eeff' },
+                        shape: { type: 'circle' },
+                        opacity: { value: 0.5, random: false },
+                        size: { value: 3, random: true },
+                        line_linked: {
+                            enable: true,
+                            distance: 150,
+                            color: '#01eeff',
+                            opacity: 0.4,
+                            width: 1
+                        },
+                        move: {
+                            enable: true,
+                            speed: 2,
+                            direction: 'none',
+                            random: false,
+                            straight: false,
+                            out_mode: 'out',
+                            bounce: false
+                        }
+                    },
+                    interactivity: {
+                        detect_on: 'canvas',
+                        events: {
+                            onhover: { enable: true, mode: 'grab' },
+                            onclick: { enable: true, mode: 'push' },
+                            resize: true
+                        },
+                        modes: {
+                            grab: { distance: 140, line_linked: { opacity: 1 } },
+                            push: { particles_nb: 4 }
+                        }
+                    },
+                    retina_detect: true
+                });
+            }
+        });
+
+        // Efeito Parallax no cabeçalho
+        window.addEventListener('scroll', function() {
+            const parallax = document.querySelector('.parallax-bg');
+            if (parallax) {
+                let scrollPosition = window.pageYOffset;
+                parallax.style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
+            }
+        });
+
+        // Animação de rolagem suave para links de navegação
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Toggle do menu mobile
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+        }
+
+        // Contador de estatísticas
+        const statNumbers = document.querySelectorAll('.stat-number');
+        let counted = false;
+
+        function startCounting() {
+            if (counted) return;
+            
+            statNumbers.forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-target'));
+                let count = 0;
+                const increment = target / 50; // Velocidade da contagem
+                
+                const timer = setInterval(() => {
+                    count += increment;
+                    if (count >= target) {
+                        stat.textContent = target;
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(count);
+                    }
+                }, 30);
+            });
+            
+            counted = true;
+        }
+
+        // Iniciar contagem quando a seção estiver visível
+        const aboutSection = document.getElementById('sobre');
+        
+        if (aboutSection) {
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    startCounting();
+                }
+            }, { threshold: 0.5 });
+            
+            observer.observe(aboutSection);
+        }
+
+        // Animação das barras de habilidades
+        const skillBars = document.querySelectorAll('.skill-bar');
+        
+        if (skillBars.length > 0) {
+            const skillsObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const bar = entry.target;
+                        const level = bar.getAttribute('data-level');
+                        bar.style.width = level;
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            skillBars.forEach(bar => {
+                skillsObserver.observe(bar);
+            });
+        }
+
+        // Slider de depoimentos
+        const testimonialItems = document.querySelectorAll('.testimonial-item');
+        const dots = document.querySelectorAll('.dot');
+        const prevBtn = document.querySelector('.testimonial-prev');
+        const nextBtn = document.querySelector('.testimonial-next');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            testimonialItems.forEach(item => item.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            testimonialItems[index].classList.add('active');
+            dots[index].classList.add('active');
+        }
+
+        if (prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', () => {
+                currentSlide = (currentSlide - 1 + testimonialItems.length) % testimonialItems.length;
+                showSlide(currentSlide);
+            });
+
+            nextBtn.addEventListener('click', () => {
+                currentSlide = (currentSlide + 1) % testimonialItems.length;
+                showSlide(currentSlide);
+            });
+        }
+
+        if (dots.length > 0) {
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentSlide = index;
+                    showSlide(currentSlide);
+                });
+            });
+        }
+
+        // Filtro de projetos
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projetoCards = document.querySelectorAll('.projeto-card');
+
+        if (filterBtns.length > 0) {
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remover classe ativa de todos os botões
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Adicionar classe ativa ao botão clicado
+                    btn.classList.add('active');
+                    
+                    const filter = btn.getAttribute('data-filter');
+                    
+                    projetoCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        }
+
+        // Botão de voltar ao topo
+        const backToTopBtn = document.querySelector('.back-to-top');
+        
+        if (backToTopBtn) {
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.classList.add('show');
+                } else {
+                    backToTopBtn.classList.remove('show');
+                }
+            });
+            
+            backToTopBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // Toggle de tema claro/escuro
+        const themeToggle = document.querySelector('.theme-toggle');
+        const body = document.body;
+        
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                body.classList.toggle('light-mode');
+                
+                if (body.classList.contains('light-mode')) {
+                    themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+            
+            // Verificar tema salvo
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                body.classList.add('light-mode');
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+        }
+
+        // Formulário de contato
+        const contactForm = document.getElementById('contactForm');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Simulação de envio de formulário
+                const submitBtn = this.querySelector('button[type="submit"]');
+                const originalText = submitBtn.textContent;
+                
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Enviando...';
+                
+                setTimeout(() => {
+                    alert('Mensagem enviada com sucesso!');
+                    contactForm.reset();
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalText;
+                }, 1500);
+            });
+        }
+    </script>
+</body>
+</html>
